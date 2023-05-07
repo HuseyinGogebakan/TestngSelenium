@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test5/5">
+    <test name="toFirstBreak">
+        <classes>
+            <class name="cwtest.tests.Day14.C05_TImeouts"></class>
+            <class name="cwtest.tests.Day14.C01_Annotations"></class>
+        </classes>
+    </test>
+    <test name="toSecond?">
+        <classes>
+            <class name="cwtest.tests.Day14.C03_DependsOn"></class>
+            <class name="cwtest.tests.Day14.C04_Enabled"></class>
+
+        </classes>
+    </test>
+</suite>
+

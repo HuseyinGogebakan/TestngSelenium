@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="cwtest.tests.Day15.C01_Groups"></class>
+            
+        </classes>
+
+        
+    </test>
+    
+    <test name="Test01">
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        
+        <classes>
+            <class name="cwtest.tests.Day15.C01_Groups"></class>
+            <class name="cwtest.tests.Day14.C04_Enabled"></class>
+        </classes>
+        
+    </test>
+</suite>

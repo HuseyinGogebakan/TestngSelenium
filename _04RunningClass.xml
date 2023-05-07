@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample">
+    <test name="Sample01">
+        <classes>
+            <class name="cwtest.tests.Day15.C01_Groups">
+
+                <methods>
+                    <include name="smoke"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
