@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+    <test name="test">
+        <parameter name="browser" value="firefox"></parameter>
+    <classes>
+        <class name="cwtest.tests.Day16.C02_Parameterusage"></class>
+    </classes>
+
+    </test>
+
+</suite>

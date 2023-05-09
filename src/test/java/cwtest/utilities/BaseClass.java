@@ -15,9 +15,13 @@ public abstract class BaseClass {
     protected Actions actions;
     protected Faker faker;
 
+    @BeforeTest
+    public void setFaker(){
+        faker = new Faker();
+    }
     @BeforeMethod
     public void settings() {
-        faker = new Faker();
+
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-popup-blocking");

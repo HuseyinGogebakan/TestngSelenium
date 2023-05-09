@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test5/5">
-    <test name="toFirstBreak">
+<suite name="Suite">
+    <test name="Test">
+        <parameter name="Name" value="Marco"></parameter>
+        <parameter name="Surname" value="Montes"></parameter>
+        <parameter name="Age" value="34"></parameter>
         <classes>
-            <class name="cwtest.tests.Day14.C05_TImeouts"></class>
-            <class name="cwtest.tests.Day14.C01_Annotations"></class>
-        </classes>
-    </test>
-</suite>
+            <class name="cwtest.tests.Day16.C01_Parameters">
+                <methods>
+                    <include name="parameterizedSec"></include>
+                </methods>
+            </class>
+            
+            
 
+        </classes>
+
+    </test>
+
+</suite>

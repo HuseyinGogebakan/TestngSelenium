@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--Go to URL: https://www.amazon.com
+Search words: Java, Selenium
+Assert get text result est that the result text contains the searched Word.
+Run tests from XML file.-->
+<suite name="Parameters">
+    <test name="Parameter">
+
+        <parameter name="Value" value="Selenium"></parameter>
+        <classes>
+            <class name="cwtest.Tasks.Day5_6.Tasks.Parametes"></class>
+            
+        </classes>
+
+    </test>
+    
+    <test name="Parameter1">
+        <parameter name="Value" value="Java"></parameter>
+        <classes>
+            <class name="cwtest.Tasks.Day5_6.Tasks.Parametes"></class>
+        </classes>
+    </test>
+</suite>
