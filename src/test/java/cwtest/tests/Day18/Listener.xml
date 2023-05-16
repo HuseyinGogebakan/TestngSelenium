@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="cwtest.tests.Day18.C01_Listener"/>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+    <test name="Test">
+        <packages>
+            <package name="cwtest.tests.Day14"/>
+            <package name="cwtest.tests.Day15"/>
+            <package name="cwtest.tests.Day16"/>
+            <package name="cwtest.tests.Day17"/>
+            <package name="cwtest.tests.Day18"/>
+        </packages>
+
+
+
+    </test>
+</suite>

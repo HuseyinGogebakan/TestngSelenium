@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="cwtest.Tasks.Day5_6.Tasks01.WebBrowser02"/>
+        </classes>
+    </test>
+    <test name="Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="cwtest.Tasks.Day5_6.Tasks01.WebBrowser02"/>
+        </classes>
+    </test>
+
+
+    <test name="edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="cwtest.Tasks.Day5_6.Tasks01.WebBrowser02"/>
+        </classes>
+    </test>
+    <test name="safari">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="cwtest.Tasks.Day5_6.Tasks01.WebBrowser02"/>
+        </classes>
+    </test>
+
+</suite>

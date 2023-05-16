@@ -17,7 +17,7 @@ public class Data_Provider {
 
     }
 
-    @DataProvider
+    @DataProvider(parallel = true)
     public Object[][] data(){
 
 
